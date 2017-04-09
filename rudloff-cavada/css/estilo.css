@@ -16,9 +16,9 @@ h1, h2, h3{
 
 h4, h5, h6{font-weight:700;}
 
-h1{letter-spacing:0.1em; color:rgba(255,255,255,0.75);}
+h1{letter-spacing:0.1em; color:rgba(255,255,255);}
 
-h2{letter-spacing:0.02em; color:rgba(255,255,255,0.5); padding:0.2em 0; }
+h2{letter-spacing:0.02em; color:rgba(255,255,255,0,5); padding:0.2em 0; }
 
 h3{letter-spacing:0.2em; color:rgba(0,0,0,1); padding:2em 0 0.6em 0; }
 
@@ -64,7 +64,7 @@ video{
 	width:46%;
 	padding:2%;
 	float:left;
-	background-color:red;
+	background-color:white;
 	}
 
 .dupla a{
@@ -81,7 +81,7 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
+	background-color:#ECFFFF;
 	background-image:url('../images/dupla-primera.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
@@ -98,7 +98,7 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
+	background-color:#F7E3FF;
 	background-image:url('../images/dupla-segunda.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
@@ -130,27 +130,27 @@ video{
 	}
 
 @-webkit-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color:rgba(123,206,217,1);}
+	to {background-color:rgba(159,125,183,1);}
 }
 
 @-moz-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color:rgba(123,206,217,1);}
+	to {background-color:rgba(159,125,183,1);}
 }
 
 @-ms-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color:rgba(123,206,217,1);}
+	to {background-color:rgba(159,125,183,1);}
 }
 
 @keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
+	from {background-color:rgba(123,206,217,1);}
+	to {background-color:rgba(159,125,183,1);}
 }
 
 .item {
-	width:23%;
+	width:31.2%;
 	margin:1%;
 	color:#333;
 	background:white;
@@ -186,6 +186,15 @@ video{
 	margin:2% 5% 6% 5%;
 }
 
+.item .title{
+	background: rgba(255,255,255,1);
+}
+
+.item .title h3{
+	font-size: 1.1em;
+	letter-spacing: 0.1em;
+	padding:0.6em 0 0.6em 0;
+}
 footer{
 	width:100%;
 	padding:3em 0 1em 0;
