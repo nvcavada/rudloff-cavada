@@ -195,39 +195,3 @@ video{
 	letter-spacing: 0.1em;
 	padding:0.6em 0 0.6em 0;
 }
-footer{
-	width:100%;
-	padding:3em 0 1em 0;
-	text-align:center;
-}
-
-footer p{
-	text-transform:uppercase;
-	letter-spacing:0.1em;
-	font-size:0.9em;
-	}
-
-footer hr{
-	border:2px solid #000;
-	width:10%;
-	margin:2em auto 0 auto;
-	}
-
-@media screen and (orientation: portrait){
-
-	.dupla{
-		width:96%;
-		padding:2%;
-		float:left;
-	}
-	.item{
-		width:48%;
-		margin:1%;
-		background:black;
-		color:#ddd
-	}
-
-	footer hr{
-	width:20%;
-	}
-}
